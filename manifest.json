@@ -1,43 +1,94 @@
 {
-    "name": "TOURLY - Travel Ecommerce",
-    "short_name": "TLY",
-    "description": "A travel ecommerce platform for booking tours and experiences.",
-    "start_url": "/index.html",
-    "scope": "/",
-    "display": "standalone",
-    "background_color": "#FFFFFF",
-    "theme_color": "#000000",
-    "orientation": "portrait",
-    "lang": "en",
-    "categories": ["travel", "shopping", "ecommerce"],
-    "icons": [
-      {
-        "src": "assets/images/logo_tourly_192.png",
-        "sizes": "192x192",
-        "type": "image/png",
-        "purpose": "any maskable"
-      },
-      {
-        "src": "assets/images/logo_tourly_512.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "any maskable"
-      }
-    ],
-    "shortcuts": [
-      {
-        "name": "Book a Tour",
-        "short_name": "Book",
-        "description": "Go directly to tour booking",
-        "url": "/book.html",
-        "icons": [
-          {
-            "src": "images/shortcut-icon.png",
-            "sizes": "96x96",
-            "type": "image/png"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "id": "/",
+  "name": "TOURLY - Travel Ecommerce",
+  "short_name": "TLY",
+  "description": "A travel ecommerce platform for booking tours and experiences.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "lang": "en",
+  "categories": ["travel", "shopping", "ecommerce"],
+  "icons": [
+    {
+      "src": "assets/images/logo_tourly_192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/logo_tourly_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/logo_tourly_192.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/logo_tourly_512.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/screenshots/homepage.png",
+      "sizes": "1080x1920",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/screenshots/booking.png",
+      "sizes": "1080x1920",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Book a Tour",
+      "short_name": "Book",
+      "description": "Go directly to tour booking",
+      "url": "/book.html",
+      "icons": [
+        {
+          "src": "images/shortcut-icon.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "View Popular Tours",
+      "short_name": "Popular",
+      "description": "Explore popular tours",
+      "url": "/popular.html",
+      "icons": [
+        {
+          "src": "images/popular-shortcut-icon.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "iarc_rating_id": "e10c6b5e-3b3c-4d3a-9f3b-1e5f3e2b5f3c",
+  "dir": "ltr",
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.tourly.app",
+      "id": "com.tourly.app"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/app/id1234567890"
+    }
+  ],
+  "prefer_related_applications": false
+}
